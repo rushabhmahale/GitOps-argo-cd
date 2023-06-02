@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: sandip525/flaskapp:25
+        image: sandip525/flaskapp:latest
         ports:
         - containerPort: 80
 ---
